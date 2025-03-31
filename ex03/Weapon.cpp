@@ -6,15 +6,20 @@
 /*   By: thibault <thibault@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/24 18:11:34 by thibault          #+#    #+#             */
-/*   Updated: 2025/03/24 18:19:29 by thibault         ###   ########.fr       */
+/*   Updated: 2025/03/25 18:32:10 by thibault         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Weapon.hpp"
 
-Weapon::Weapon(std::string type)
+Weapon::Weapon()
 {
 	
+}
+
+Weapon::Weapon(std::string type)
+{
+	this->_type = type;
 }
 
 Weapon::~Weapon()
