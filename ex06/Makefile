@@ -6,7 +6,7 @@
 #    By: tdausque <tdausque@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/01 13:39:21 by tdausque          #+#    #+#              #
-#    Updated: 2025/04/01 13:39:23 by tdausque         ###   ########.fr        #
+#    Updated: 2025/04/01 14:58:13 by tdausque         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -18,7 +18,7 @@ OBJS_DIR = objs
 RM = rm -f
 OBJS = $(SRCS:%.cpp=$(OBJS_DIR)/%.o)
 
-NAME = harl
+NAME = harlFilter
 
 all: $(NAME)
 
