@@ -6,7 +6,7 @@
 /*   By: tdausque <tdausque@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/25 19:07:53 by thibault          #+#    #+#             */
-/*   Updated: 2025/04/01 10:26:04 by tdausque         ###   ########.fr       */
+/*   Updated: 2025/04/16 11:42:01 by tdausque         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,7 +44,8 @@ int main(int ac, char **av)
 
 	if (ac != 4)
 		return (1);
-
+	if (av[1][0] == '\0' || av[2][0] == '\0' || av[3][0] == '\0')
+		return (0);
 	filename = av[1];
 	search = av[2];
 	replace = av[3];
